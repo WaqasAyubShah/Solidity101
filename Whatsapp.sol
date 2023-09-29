@@ -16,4 +16,11 @@ contract Whatsapp {
         function getMessage() public view returns(string memory){
                 return message;
         }
+        function domath (){
+                a+b;
+                b-a;
+                a*b;
+                a == 0;
+        }
+        
 }
